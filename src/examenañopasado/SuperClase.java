@@ -1,10 +1,9 @@
-
 package examenañopasado;
 
 public class SuperClase {
-    
+
     private String cor;
-    private float base=5,altura=5;
+    private float base = 5, altura = 5;
 
     public SuperClase() {
     }
@@ -21,15 +20,13 @@ public class SuperClase {
     public float getAltura() {
         return altura;
     }
-    
-    
-    public void area(){
-       float area=base*altura;
+
+    public void area() {
+        float area = base * altura;
     }
-    public void perimetro(){
-        
+
+    public void perimetro() {
+
     }
-    
-    
-    
+
 }

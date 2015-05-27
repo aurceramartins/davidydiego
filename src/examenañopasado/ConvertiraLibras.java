@@ -1,23 +1,14 @@
-
 package examenañopasado;
 
 import java.awt.Color;
 
 public class ConvertiraLibras extends javax.swing.JFrame {
-
+    
     public ConvertiraLibras() {
         initComponents();
         blimpar.setBackground(Color.red);
     }
     
-    
-    
-    
-    
-    
-    
-    
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -94,14 +85,14 @@ public class ConvertiraLibras extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void blibrasaKgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_blibrasaKgActionPerformed
-        float libras=Float.valueOf(txtIntroducir.getText());
-        float kg=libras*0.45f;
+        float libras = Float.valueOf(txtIntroducir.getText());
+        float kg = libras * 0.45f;
         lblRecibir.setText(String.valueOf(kg));
     }//GEN-LAST:event_blibrasaKgActionPerformed
 
     private void bkgaLibrasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bkgaLibrasActionPerformed
-        float kg=Float.valueOf(txtIntroducir.getText());
-        float libras=kg/0.45f;
+        float kg = Float.valueOf(txtIntroducir.getText());
+        float libras = kg / 0.45f;
         lblRecibir.setText(String.valueOf(libras));
         
     }//GEN-LAST:event_bkgaLibrasActionPerformed
@@ -112,7 +103,7 @@ public class ConvertiraLibras extends javax.swing.JFrame {
         txtIntroducir.setText("");
         
     }//GEN-LAST:event_blimparActionPerformed
-
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

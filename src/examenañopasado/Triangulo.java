@@ -14,9 +14,10 @@ public class Triangulo extends SuperClase {
     public Triangulo(float lado) {
         this.lado = lado;
     }
+
     @Override
-    public void area(){
-       float area=super.getBase()*super.getAltura()/2;
+    public void area() {
+        float area = super.getBase() * super.getAltura() / 2;
         System.out.println(area);
     }
 }
